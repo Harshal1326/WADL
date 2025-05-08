@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple jQuery Mobile Page</title>
+  <!-- jQuery Mobile CSS -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+  <!-- jQuery and jQuery Mobile JS -->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Main Page -->
+  <div data-role="page" id="mainPage">
+    <div data-role="header">
+      <h1>Welcome</h1>
+    </div>
+
+    <div data-role="content">
+      <p>This is a simple page using jQuery Mobile.</p>
+      <a href="#secondPage" class="ui-btn ui-corner-all">Go to Next Page</a>
+    </div>
+
+    <div data-role="footer">
+      <h4>Footer Text</h4>
+    </div>
+  </div>
+
+  <!-- Second Page -->
+  <div data-role="page" id="secondPage">
+    <div data-role="header">
+      <h1>Second Page</h1>
+    </div>
+
+    <div data-role="content">
+      <p>You are on the second page now!</p>
+      <a href="#mainPage" class="ui-btn ui-corner-all">Back to Home</a>
+    </div>
+
+    <div data-role="footer">
+      <h4>Footer - Page 2</h4>
+    </div>
+  </div>
+
+</body>
+</html>
